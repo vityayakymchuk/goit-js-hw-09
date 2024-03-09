@@ -1,0 +1,18 @@
+.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1128px;
+  margin: 24px 156px;
+}
+
+.gallery-image {
+  max-width: 360px;
+  height: 200px;
+}
+.gallery-item img:hover,
+.gallery-item img:focus {
+  scale: 1.05;
+}
