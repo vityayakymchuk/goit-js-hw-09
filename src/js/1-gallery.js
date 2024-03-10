@@ -86,9 +86,7 @@ const createGallery = images.reduce((html, { preview, original, description }) =
 
 gallery.innerHTML = createGallery;
 
-let MyGallery = new SimpleLightbox('.gallery a', 
+let myGallery = new SimpleLightbox('.gallery a', 
 {captionDelay: 250,
   captionsData: 'alt'
     });
-
-myGallery.close();
