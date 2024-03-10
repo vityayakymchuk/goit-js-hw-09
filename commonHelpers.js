@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                
             alt="${i}"
           />
         </a>
-      </li>`,"");c.innerHTML=n;new t(".gallery a",{captionDelay:250,captionsData:"alt"});myGallery.close();
+      </li>`,"");c.innerHTML=n;new t(".gallery a",{captionDelay:250,captionsData:"alt"});
 //# sourceMappingURL=commonHelpers.js.map
